@@ -38,7 +38,7 @@ A demo of lightning-talk in VueConf.HangZhou 2018.11
 
 1. 初始化一个名叫 vue-cli-plugin-react 的空的 vue-cli 插件
 2. 复制 create-react-app 中除配置文件以外的源文件到 template 目录
-3. 在插件中扩展 package.json 安装 react 和 react-dom，渲染模板
+3. 在插件中扩展 package.json 安装 react 和 react-dom 等，渲染模板
 4. 修改默认 webpack 入口
 5. 修改 babel 配置文件
 6. 增加 prompts
