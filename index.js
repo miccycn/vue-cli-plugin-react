@@ -6,4 +6,16 @@ module.exports = (api, projectOptions) => {
 			.add('./src/index.js')
 			.end();
 	});
+
+	api.registerCommand(
+		'vueconf', {
+			description: 'test',
+			usage: 'vue-cli-service vueconf',
+			options: {}
+		},
+		(args) => {
+			console.log('测试输出projectOptions(包含pluginOptions)');
+			console.log(projectOptions);
+		}
+	);
 };

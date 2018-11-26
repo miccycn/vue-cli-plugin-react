@@ -14,7 +14,10 @@ module.exports = (api, option, rootOptions) => {
 			"extends": [
 				"plugin:react/recommended",
 			]
-		}
+		},
+		scripts: {
+			"vueconf": "vue-cli-service vueconf"
+		},
 	});
 	// 渲染模板
 	api.render('./template', {
