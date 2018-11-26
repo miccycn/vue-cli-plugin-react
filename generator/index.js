@@ -17,7 +17,9 @@ module.exports = (api, option, rootOptions) => {
 		}
 	});
 	// 渲染模板
-	api.render('./template');
+	api.render('./template', {
+		...option,
+	});
 
 	// 修改 babel.config.js
 	api.postProcessFiles(files => {
