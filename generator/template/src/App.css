@@ -8,18 +8,27 @@
 }
 
 .App-header {
+  <% if (appStyle === 'Vue') { %> 
+  background-color: #FFF;
+  color: #2c3e50;
+  <% } else { %>
   background-color: #282c34;
+  color: white;
+  <% } %>
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
+  <% if (appStyle === 'Vue') { %> 
+  color: #3eaf7c;
+  <% } else { %>
   color: #61dafb;
+  <% } %>
 }
 
 @keyframes App-logo-spin {
