@@ -1,6 +1,6 @@
 # vue-cli-plugin-react
 
-A demo of lightening-talk in VueConf.HangZhou 2018.11
+A demo of lightning-talk in VueConf.HangZhou 2018.11
 
 ## 准备工作:
 
@@ -52,10 +52,15 @@ A demo of lightening-talk in VueConf.HangZhou 2018.11
 
 9. 增加 ui.js
 10. 完善 ui 选项的读写
+
     此时可以在任意目录下尝试运行
 
     `vue ui`
+
     在可视化界面中把 myProject 添加进项目管理界面
+
     在左侧图标菜单栏中选择“配置”——“vueconf”
+
     即可看到两个选项，这两个选项可被修改后保存到 `vue.config.js` 中，以便插件后续其他部分需要时调用。
+
     还可在左侧图标菜单栏中选择“任务”——“vueconf”——“运行”，查看第 8 步时的输出。
