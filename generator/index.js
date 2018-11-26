@@ -14,6 +14,6 @@ module.exports = (api, option, rootOptions) => {
 			]
 		}
 	});
-
+	// 渲染模板
 	api.render('./template');
 };
